@@ -16,7 +16,7 @@ The f3-prover needs work together with f3-pool, you can follow up the details as
 #### Step-1. Pool Setup
 Recommend a single server for the pool service, and enable the ports 4040 and 5050.
 
-1. Download Pool
+1. Download Pool Package
 
 ```
 mkdir aleo && cd aleo
@@ -58,7 +58,7 @@ chmod +x myprover.sh
 ./myprover.sh <POOL-CONFIG>
 ```
 
-N.B. Please replace <POOL-CONFIG> with your pool server configuration from step-1.2.
+N.B. Please replace <POOL-CONFIG> with your pool Server-IP:4040 from step-1.2.
 
 3. Logging
 ```
