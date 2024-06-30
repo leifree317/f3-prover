@@ -20,6 +20,7 @@ Recommend a single server for the pool service, and enable the ports 4040 and 50
 
 ```
 mkdir aleo && cd aleo
+
 wget https://github.com/minio/certgen/releases/download/v1.2.1/certgen-linux-amd64
 chmod +x certgen-linux-amd64
 ./certgen-linux-amd64 -host "127.0.0.1,localhost,203.160.91.77"
