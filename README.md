@@ -1,7 +1,7 @@
 # F3-Prover - *[ :fire: The Fastest Aleo Prover :tada: ]*
 The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo mode prover for aleo testnet proving, it will lead you into the super experience.
 
-## Reference Benchmark Results
+## :trophy: Reference Benchmark Results
 
 |     CPU      |      GPU          |     Result   |
 | :----------: | :---------------: | :----------: |
@@ -11,10 +11,10 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 
 
 
-## How to work?
+## :diamonds: How to work?
 The f3-prover needs work together with f3-pool, you can follow up the details as following step by step. All these steps must be done in linux environment.
 
-### Step-1. Pool Setup
+### :green_book: Step-1. Pool Setup
 Recommend a single server for the pool service, and enable the ports 4040 and 5050.
 
 1. Download Pool Package
@@ -45,7 +45,7 @@ tail -f ./pool.log
 
 To check the pool connected aleo network succeeded, you need make sure the output log as `Puzzle (Block 48888, Coinbase Target 536870911, Proof Target 134217728)`, then it says you are working on the right road, enjoy yourself!
 
-### Step-2. Prover Startup
+### :blue_book: Step-2. Prover Startup
 1. Download Prover
 ```
 mkdir aleo && cd aleo
