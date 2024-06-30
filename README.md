@@ -24,7 +24,7 @@ wget https://github.com/minio/certgen/releases/download/v1.2.1/certgen-linux-amd
 chmod +x certgen-linux-amd64
 ./certgen-linux-amd64 -host "127.0.0.1,localhost,203.160.91.77"
 
-wget https://github.com/leifree317/f3-prover/releases/download/latest/ff3-pool
+wget https://github.com/leifree317/f3-prover/releases/download/latest/f3-pool
 chmod +x f3-pool
 ```
 
@@ -49,7 +49,7 @@ To check the pool connected aleo network succeeded, you need make sure the outpu
 mkdir aleo && cd aleo
 
 wget https://github.com/leifree317/f3-prover/releases/download/latest/f3-prover
-https://github.com/leifree317/f3-prover/releases/download/latest/myprover.sh
+wget https://github.com/leifree317/f3-prover/releases/download/latest/myprover.sh
 
 chmod +x f3-prover
 chmod +x myprover.sh
