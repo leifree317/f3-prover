@@ -22,9 +22,12 @@ Recommend a single server for the pool service, and enable the ports 4040 and 50
 ```
 mkdir aleo && cd aleo
 
+# Download tls tool
 wget https://github.com/minio/certgen/releases/download/v1.2.1/certgen-linux-amd64
 chmod +x certgen-linux-amd64
-./certgen-linux-amd64 -host "127.0.0.1,localhost,203.160.91.77"
+
+# Generate tls certification, and please replace '10.10.1.211' with your server ip address
+./certgen-linux-amd64 -host "127.0.0.1,localhost,10.10.1.211"
 
 wget https://github.com/leifree317/f3-prover/releases/download/latest/f3-pool
 chmod +x f3-pool
