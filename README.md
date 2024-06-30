@@ -14,12 +14,16 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 The f3-prover needs work together with f3-pool, you can follow up the details as following step by step. All these steps must be done in linux environment.
 
 #### Step-1. Pool Setup
-Recommend a single server for the pool service, and enable the ports 6060.
+Recommend a single server for the pool service, and enable the ports 4040 and 5050.
 
 1. Download Pool
 
 ```
 mkdir aleo && cd aleo
+wget https://github.com/minio/certgen/releases/download/v1.2.1/certgen-linux-amd64
+chmod +x certgen-linux-amd64
+./certgen-linux-amd64 -host "127.0.0.1,localhost,203.160.91.77"
+
 wget https://github.com/leifree317/f3-prover/latest/f3-pool
 chmod +x f3-pool
 ```
