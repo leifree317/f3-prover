@@ -1,4 +1,4 @@
-# F3-Prover
+# F3-Prover - *[ :fire: The Fastest Aleo Prover :tada: ]*
 The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo mode prover for aleo testnet proving, it will lead you into the super experience.
 
 ## Reference Benchmark Results
