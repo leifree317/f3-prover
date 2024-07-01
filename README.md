@@ -40,7 +40,7 @@ chmod +x f3-pool
 ulimit -n 1048576 && nohup ./f3-pool start --address <YOUR_BENEFIT_ADDRESS> --network 1 --prover --nodisplay --verbosity=2 >> pool.log 2>&1 &
 ```
 
-N.B. Please replace <YOUR_BENEFIT_ADDRESS> with your true aleo wallet address, and remember your server IP for prover configuration.
+**N.B.** Please replace <YOUR_BENEFIT_ADDRESS> with your true aleo wallet address, and remember your server IP for prover configuration.
 
 3. Logging
 ```
@@ -67,7 +67,12 @@ chmod +x myprover.sh
 ./myprover.sh <POOL-CONFIG>
 ```
 
-N.B. Please replace <POOL-CONFIG> with your pool Server-IP:4040 from step-1.2.
+**N.B.** Please replace <POOL-CONFIG> with your pool Server-IP:4040 from step-1.2.
+
+If you can't startup with gpu because of the nvidia-smi failed, you can try the command directly as following,
+```
+nohup ./f3-prover -g 0 -p "<POOLIP>:4040" >> ./prover.log 2>&1 &
+```
 
 3. Logging
 ```
@@ -75,4 +80,4 @@ tail -f ./prover.log
 ```
 ![prover log](https://github.com/leifree317/f3-prover/blob/main/prover-log.jpg)
 
-N.B. Because of the dynamic input data and systhesis.aleo program during the puzzle resovling, the proving rate will be impacted by the epoch adjustment, take it easy, it is a normal case.
+**N.B.** Because of the dynamic input data and systhesis.aleo program during the puzzle resovling, the proving rate will be impacted by the epoch adjustment, take it easy, it is a normal case.
