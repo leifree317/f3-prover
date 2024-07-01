@@ -9,7 +9,8 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 | AMD 7502 * 2  |  RTX 3090 * 1    | 1740 P/s +   | 
 | AMD 7502 * 2  |  -               |  520 P/s +   | 
 
-
+## :sparkles: Architecture Overview
+![Overview](https://github.com/leifree317/f3-prover/blob/main/overview.jpg)
 
 ## :diamonds: How to work?
 The f3-prover needs work together with f3-pool, you can follow up the details as following step by step. All these steps must be done in linux environment.
@@ -45,6 +46,7 @@ N.B. Please replace <YOUR_BENEFIT_ADDRESS> with your true aleo wallet address, a
 ```
 tail -f ./pool.log
 ```
+![pool log](https://github.com/leifree317/f3-prover/blob/main/pool-log.jpg)
 
 To check the pool connected aleo network succeeded, you need make sure the output log as `Puzzle (Block 48888, Coinbase Target 536870911, Proof Target 134217728)`, then it says you are working on the right road, enjoy yourself!
 
@@ -71,6 +73,6 @@ N.B. Please replace <POOL-CONFIG> with your pool Server-IP:4040 from step-1.2.
 ```
 tail -f ./prover.log
 ```
-
+![prover log](https://github.com/leifree317/f3-prover/blob/main/prover-log.jpg)
 
 N.B. Because of the dynamic input data and systhesis.aleo program during the puzzle resovling, the proving rate will be impacted by the epoch adjustment, take it easy, it is a normal case.
