@@ -15,7 +15,7 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 To clear why f3-pool is here, because of f3-pool is the blockchain node here, which is responsible for the communication with the Aleo network.
 
 ## :diamonds: How to work?
-The f3-prover needs work together with f3-pool, you can follow up the details as following step by step. All these steps must be done in linux environment.
+The f3-prover needs work together with f3-pool, you can do as following step by step. All these steps must be done in linux environment.
 
 ### :green_book: Step-1. Pool Setup
 Recommend a single server for the pool service, and enable the ports 4040 and 5050.
