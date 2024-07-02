@@ -83,3 +83,5 @@ tail -f ./prover.log
 ![prover log](https://github.com/leifree317/f3-prover/blob/main/prover-log.jpg)
 
 **N.B.** Because of the dynamic input data and systhesis.aleo program during the puzzle resovling, the proving rate will be impacted by the epoch adjustment, take it easy, it is a normal case.
+
+***X*** [Follow Us](https://x.com/f3prover)
