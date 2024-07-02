@@ -12,6 +12,8 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 ## :sparkles: Architecture Overview
 ![Overview](https://github.com/leifree317/f3-prover/blob/main/overview.jpg)
 
+To clear why f3-pool is here, because of f3-pool is the blockchain node here, which is responsible for the communication with the Aleo network.
+
 ## :diamonds: How to work?
 The f3-prover needs work together with f3-pool, you can follow up the details as following step by step. All these steps must be done in linux environment.
 
