@@ -69,7 +69,7 @@ chmod +x myprover.sh
 ./myprover.sh <POOL-CONFIG>
 ```
 
-**N.B.** Please replace <POOL-CONFIG> with your pool Server-IP:4040 from step-1.2.
+**N.B.** Please replace \<POOL-CONFIG\> with your pool Server-IP:4040 from step-1.2.
 
 If you can't startup with gpu because of the nvidia-smi failed, you can try the command directly as following,
 ```
