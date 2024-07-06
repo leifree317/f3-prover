@@ -42,7 +42,7 @@ chmod +x f3-pool
 ulimit -n 1048576 && nohup ./f3-pool start --address <YOUR_BENEFIT_ADDRESS> --network 1 --prover --nodisplay --verbosity=2 >> pool.log 2>&1 &
 ```
 
-**N.B.** Please replace <YOUR_BENEFIT_ADDRESS> with your true aleo wallet address, and remember your server IP for prover configuration.
+**N.B.** Please replace \<YOUR_BENEFIT_ADDRESS\> with your true aleo wallet address, and remember your server IP for prover configuration.
 
 3. Logging
 ```
@@ -51,6 +51,12 @@ tail -f ./pool.log
 ![pool log](https://github.com/leifree317/f3-prover/blob/main/pool-log.jpg)
 
 To check the pool connected aleo network succeeded, you need make sure the output log as `Puzzle (Block 48888, Coinbase Target 536870911, Proof Target 134217728)`, then it says you are working on the right road, enjoy yourself!
+
+4. To check your solo pool production:
+```
+http://<POOL_IP>:3030/testnet/peers/speed/<All Speed Token>
+```
+You can get your \<All Speed Token\> from the starting of your pool.log.
 
 ### :blue_book: Step-2. Prover Startup
 1. Download Prover
@@ -66,14 +72,14 @@ chmod +x myprover.sh
 
 2. Startup
 ```
-./myprover.sh <POOL-CONFIG>
+./myprover.sh <POOL_CONFIG>
 ```
 
-**N.B.** Please replace \<POOL-CONFIG\> with your pool Server-IP:4040 from step-1.2.
+**N.B.** Please replace \<POOL_CONFIG\> with your pool Server-IP:4040 from step-1.2.
 
 If you can't startup with gpu because of the nvidia-smi failed, you can try the command directly as following,
 ```
-nohup ./f3-prover -g 0 -p "<POOLIP>:4040" >> ./prover.log 2>&1 &
+nohup ./f3-prover -g 0 -p "<POOL_IP>:4040" >> ./prover.log 2>&1 &
 ```
 
 3. Logging
