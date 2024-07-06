@@ -84,6 +84,12 @@ tail -f ./prover.log
 
 **N.B.** Because of the dynamic input data and systhesis.aleo program during the puzzle resovling, the proving rate will be impacted by the epoch adjustment, take it easy, it is a normal case.
 
+|     Pool      |      Prover       | 
+| :----------:  | :---------------: | 
+| < 2.2.12      |  < 1.3.10         | 
+| >= 2.2.12     |  >=1.3.10         | 
+
+
 ***X*** [Follow Us](https://x.com/f3prover)
 
 ***Discord*** [Tech Support](https://discord.gg/kSSJdztA)
