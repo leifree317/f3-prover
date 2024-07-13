@@ -5,10 +5,10 @@ The F3 means the ***F****ree* ***F****ucking* ***F****ast*, f3-prover is a solo 
 
 |     CPU      |      GPU          |     Result   |
 | :----------: | :---------------: | :----------: |
-| AMD 7T83 * 2  |  RTX 3080 * 1    | 6310 P/s +   | 
+| AMD 7T83 * 2  |  RTX 3080 * 1    | 7000 P/s +   | 
 | AMD 7542 * 2  |  RTX 3080 * 1    | 4185 P/s +   | 
+| AMD 7502 * 2  |  RTX 3090 * 1    | 3917 P/s +   | 
 | AMD 7302 * 2  |  RTX 3080 * 1    | 2210 P/s +   | 
-| AMD 7502 * 2  |  RTX 3090 * 1    | 1740 P/s +   | 
 | AMD 7402 * 1  |  RTX 2080T* 1    | 1518 P/s +   | 
 | E5-2860 V4 * 1|  RTX 4090 * 1    |  770 P/s +   | 
 | AMD 7502 * 2  |  -               |  520 P/s +   | 
